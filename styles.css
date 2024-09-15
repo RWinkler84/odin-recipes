@@ -1,5 +1,6 @@
 * {
   font-family: Helvetica, Arial, sans-serif;
+  /* outline: solid 1px; */
 }
 
 body {
@@ -29,10 +30,9 @@ h1 {
 }
 
 img {
-  width: 90%;
-  height: auto;
   border-radius: 25px;
   padding: 10px;
+  max-width: 300px;
 }
 
 .topContainer {
@@ -43,7 +43,8 @@ img {
 
 #imageContainer {
   border-radius: 10px;
-  min-width: 30%;
+}
+#descriptionContainer {
 }
 
 .devider {
@@ -56,4 +57,8 @@ img {
   background: linear-gradient(90deg, rgb(196, 206, 155,0.7) 0%, rgba(255,255,255,0) 50%) ;
   min-height: 5px;
   margin: -15px 0px 10px -15px
+}
+
+ol li {
+  margin-top: 0.5em;
 }
